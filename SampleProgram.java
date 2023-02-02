@@ -5,6 +5,7 @@ public class SampleProgram {
         System.out.println("Hi ! I am default constructor");
     }
     SampleProgram(int arg) {
+        this();
         this.arg=arg;
     }
     public static void main(String[] args) {
