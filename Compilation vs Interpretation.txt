@@ -1,0 +1,15 @@
+1. .Java file cannot be interpretated direct.
+2. So, first we compile .java file to .class file and then it can be interpretated
+   line by line by JVM (Java virtual machine).
+3. In pyhton we can directly run it without any interpretation source.
+4. We can interprete or we can compile a python program
+5. But, in java we should have to first compile the program to .class file and then do interpretation
+6. Class border load the memory 
+     command prompt: 
+          java -verbose
+7. .class ---> class boader ---> Byte code verifier ---> Interpreter (JVM) ---> Runtime (JRE) ---> OutPut
+8. In java name of the file and class name must be same
+9. mkdir --> to create a folder
+10. mkdir.java myfolder (myfolder is argument to mkdir)
+11. the whole world of commands actually depends upon the command lines.
+12. eg: man grep cannot work without command line
