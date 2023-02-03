@@ -1,4 +1,4 @@
-1. .Java file cannot be interpretated direct.
+1. .Java file cannot be interpretated directly.
 2. So, first we compile .java file to .class file and then it can be interpretated
    line by line by JVM (Java virtual machine).
 3. In pyhton we can directly run it without any interpretation source.
