@@ -21,7 +21,8 @@ public class Test4 {
     System.out.println("The Division is: " + result);
 }
     public static void main(String[] args) {
-        
+        Test4 obj = new Test4();
+        obj.calculate();
     }
 }
 // try : represents/contains code that we think has probabilty to generate/throw error at Runtime(exception).
