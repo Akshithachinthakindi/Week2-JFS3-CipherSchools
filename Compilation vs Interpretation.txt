@@ -13,3 +13,11 @@
 10. mkdir.java myfolder (myfolder is argument to mkdir)
 11. the whole world of commands actually depends upon the command lines.
 12. eg: man grep cannot work without command line
+
+ERRORS:
+- whenever the error occurs it crashes the whole program.
+Types of Errors:
+1. Syntax error --> gramatical mistake or any other mistake written wrong in the code.
+2. Runtime error (or) exception // any error occurs when program is running.
+3. Logical error --> suppose if you're expecting an output to be 5 but it came out to be 6 then it is called logical error.
+// L error occurs due to improper use of operators or wrong algorithm.
