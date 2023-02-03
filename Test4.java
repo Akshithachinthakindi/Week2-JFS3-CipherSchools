@@ -12,8 +12,15 @@ public class Test4 {
         n1=sc.nextInt();
 
         System.out.println("Enter second num: ");
+        n2 = sc.nextInt();
+            
+//              if (n2==0) {
+//                  // testing perspective
+//                 throw new ArithmeticException();
+//             }
 
         result = n1/n2;
+            
         }
         catch(Exception e) {
             System.out.println("Ouch! Exception Detected.");
