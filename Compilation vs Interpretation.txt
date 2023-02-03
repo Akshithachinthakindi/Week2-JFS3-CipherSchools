@@ -21,3 +21,24 @@ Types of Errors:
 2. Runtime error (or) exception // any error occurs when program is running.
 3. Logical error --> suppose if you're expecting an output to be 5 but it came out to be 6 then it is called logical error.
 // L error occurs due to improper use of operators or wrong algorithm.
+
+InputMisMatchExcpetion - this error occurs if we enters the wrong input.
+
+//       Throwable
+             |
+   _______________________
+1. exception      2. error
+- checked 
+-unchecked
+
+{ checked exceptions are checked at compile time eg. IOexception
+Unchecked exceptions are checked at runtime. eg. InputMisMatchException. }
+
+Keywords To handle Exceptions:
+
+1.1 try : represents/contains code that we think has probabilty to generate/throw error at Runtime(exception).
+1.2 catch : executes only if any error/exception occurs in try block. if there is no exception it will not execute.
+1.3 finally
+1.4 Throw
+1.5 throws 
+
