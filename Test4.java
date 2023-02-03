@@ -18,7 +18,16 @@ public class Test4 {
         catch(Exception e) {
             System.out.println("Ouch! Exception Detected.");
         }
+        catch(ArithmeticException ae) {
+            System.out.println("AE Detected");
+        }
+        catch(Exception e) {
+            System.out.println("Ouch! Exception Detected! " + e.getMessage());
+            e.printStackTrace();
+        }
+        finally {
     System.out.println("The Division is: " + result);
+    }
 }
     public static void main(String[] args) {
         Test4 obj = new Test4();
