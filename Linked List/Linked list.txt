@@ -1,0 +1,7 @@
+Features of Linked List:
+
+1. Linked list can contain duplicates
+2. it is an ordered collection
+3. It is Non-synchronized
+4. Manipulation is fast in Linked list
+5. it is a basic data structure which also implements Stacks & Queues
