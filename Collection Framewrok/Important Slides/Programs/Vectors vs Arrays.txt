@@ -1,0 +1,12 @@
+Vectors --> Synchronized --> Threads
+ArrayList --> Non-Synchronized
+
+Threads example:
+
+t1 --> add --> ArrayList <--remove <-- t2 // asume 't' as worker
+Both workers cannot work on the ArrayList at a same time and it is called non-Synchronized
+
+t1 -- add --> (when t1 adds some to vectors it gets blocked and can;t be removed) Vector <-- remove (doesn't work) -- t2
+// this is called synchronized where only one person can access at a time.
+ best example for this is : ATM (where more than 1 person cannot access it at a time.)
+ 
