@@ -1,0 +1,12 @@
+HashMap follows {k : v} syntax
+where, k --> key & v --> values
+ eg: {1 : "Akshitha"}
+
+
+ Characteristics:
+
+ 1. it follows key value format
+ 2. it allows unique keys only
+ 3. 1 null key is allowed
+ 4. Non-Synchronized
+ 5. Ordered Collection

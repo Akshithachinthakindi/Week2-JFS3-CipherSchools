@@ -1,0 +1,8 @@
+Characteristics:
+
+1. Stores elements using hashing
+2. stores only unique elements
+3. does not contains duplicate values
+4. Allows null values
+5. Non-Synchronized
+6. HashSet doesn't maintain insertion order
